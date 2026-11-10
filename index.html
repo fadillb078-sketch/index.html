@@ -131,7 +131,7 @@
                             <i data-lucide="award" class="w-5 h-5 text-amber-600"></i> Ketentuan Pembobotan Skor Seleksi PPDB
                         </div>
                         <p class="text-xs text-slate-600 leading-relaxed">
-                            Penilaian akhir pendaftaran peserta didik baru SMK AT-TAQWA dihitung secara saintifik melalui gabungan <strong>Rata-rata Nilai Rapor Semester 1 - 5 (Mata Pelajaran Utama)</strong> dan <strong>Tes Kemampuan Akademik (TKA)</strong>.
+                            Penilaian akhir pendaftaran peserta didik baru SMK AT-TAQWA dihitung secara saintifik melalui gabungan <strong>Rata-rata Nilai Rapor Semester 1 - 5 (Mata Pelajaran Utama)</strong> dan <strong>Tes Kemampuan Akademik (TKA)</strong>[cite: 1].
                         </p>
                     </div>
                     
@@ -167,7 +167,7 @@
                     <h2 class="text-2xl font-bold text-emerald-950 mt-2 flex items-center gap-2">
                         <i data-lucide="calculator" class="w-6 h-6 text-emerald-700"></i> Sistem Pengisian Nilai Rapor & Tes TKA
                     </h2>
-                    <p class="text-xs sm:text-sm text-slate-600">Masukkan nilai mata pelajaran semester 1 s.d 5 serta nilai Tes Kemampuan Akademik untuk menghitung rekomendasi kelayakan.</p>
+                    <p class="text-xs sm:text-sm text-slate-600">Masukkan nilai mata pelajaran semester 1 s.d 5 serta nilai Tes Kemampuan Akademik untuk menghitung rekomendasi kelayakan[cite: 1].</p>
                 </div>
                 
                 <div class="flex gap-2 no-print w-full md:w-auto">
@@ -187,7 +187,7 @@
                         <h4 class="font-bold text-amber-300 text-sm flex items-center gap-2">
                             <i data-lucide="user-check" class="w-4 h-4 text-amber-400"></i> Sinkronisasi Data Pendaftar (Berdasarkan NISN)
                         </h4>
-                        <p class="text-xs text-emerald-100">Ketik NISN yang sudah mendaftar di portal untuk memuat nama atau menyimpan rekapitulasi nilai ini.</p>
+                        <p class="text-xs text-emerald-100">Ketik NISN yang sudah mendaftar di portal untuk memuat nama atau menyimpan rekapitulasi nilai ini[cite: 1].</p>
                     </div>
                     <div class="flex gap-2 w-full sm:w-auto">
                         <input type="text" id="eval-search-nisn" maxlength="10" placeholder="Masukkan 10 Digit NISN" class="px-3.5 py-2 rounded-xl text-slate-900 text-xs font-mono font-bold focus:outline-none w-full sm:w-48 border border-amber-400">
@@ -419,7 +419,7 @@
                     <h3 class="font-bold text-emerald-950 text-xl flex items-center gap-2">
                         <i data-lucide="bell" class="w-5 h-5 text-amber-500"></i> Pengumuman & Agenda Akademik
                     </h3>
-                    <p class="text-xs text-slate-500 mt-1">Informasi penting mengenai kegiatan sekolah, jadwal tes TKA, dan pengumuman PPDB.</p>
+                    <p class="text-xs text-slate-500 mt-1">Informasi penting mengenai kegiatan sekolah, jadwal tes TKA, dan pengumuman PPDB[cite: 1].</p>
                 </div>
                 <div class="flex gap-2 no-print">
                     <button onclick="filterAnnouncements('semua')" class="ann-filter-btn px-3.5 py-1.5 rounded-xl text-xs font-bold bg-emerald-800 text-amber-300 shadow-sm border border-amber-500/30" data-cat="semua">Semua</button>
@@ -443,7 +443,7 @@
                     </span>
                 </div>
                 <h2 class="text-2xl sm:text-3xl font-bold mt-2 text-amber-100">Pendaftaran PPDB Online SMK At-Taqwa</h2>
-                <p class="text-emerald-100 text-xs sm:text-sm mt-1">Isi formulir pendaftaran calon siswa baru atau periksa status penerimaan Anda secara langsung di bawah ini.</p>
+                <p class="text-emerald-100 text-xs sm:text-sm mt-1">Isi formulir pendaftaran calon siswa baru atau periksa status penerimaan Anda secara langsung di bawah ini[cite: 1].</p>
             </div>
 
             <div class="grid grid-cols-1 lg:grid-cols-12 gap-8 items-start relative z-10">
@@ -599,7 +599,7 @@
             </div>
             <div class="flex items-center gap-4">
                 <button onclick="openAdminModal()" class="text-amber-400 hover:text-amber-300 hover:underline flex items-center gap-1.5 font-medium">
-                    <i data-lucide="lock" class="w-3.5 h-3.5 text-amber-400"></i> Admin Dashboard (admin)
+                    <i data-lucide="lock" class="w-3.5 h-3.5 text-amber-400"></i> Admin Dashboard
                 </button>
             </div>
         </div>
@@ -620,13 +620,13 @@
                         <p class="text-xs text-slate-400">Kelola Tahun PPDB, Data Pendaftar, Nilai Rapor & TKA, Pengumuman, dan Statistik</p>
                     </div>
                 </div>
-                <!-- Tombol Close Silang yang Diperbarui -->
+                <!-- Tombol Close Silang -->
                 <button onclick="closeAdminModal()" class="p-2 text-slate-400 hover:text-white bg-slate-800/80 hover:bg-red-600 rounded-xl transition flex items-center justify-center shadow-sm">
                     <i data-lucide="x" class="w-5 h-5"></i>
                 </button>
             </div>
 
-            <!-- LOGIN VIEW -->
+            <!-- LOGIN VIEW (Tanpa teks password default) -->
             <div id="admin-login-view" class="p-8 text-center max-w-md mx-auto w-full my-auto">
                 <div class="w-14 h-14 bg-amber-50 text-amber-600 rounded-full flex items-center justify-center mx-auto mb-4 border border-amber-100">
                     <i data-lucide="lock" class="w-7 h-7"></i>
@@ -640,7 +640,6 @@
                         Masuk Dashboard Admin
                     </button>
                 </form>
-                <p class="text-xs text-slate-400 mt-4">Password default: <code class="bg-slate-100 px-1.5 py-0.5 rounded font-mono text-emerald-800 font-bold">admin</code></p>
             </div>
 
             <!-- DASHBOARD VIEW -->
@@ -1296,13 +1295,13 @@
         function handleAdminLogin(e) {
             e.preventDefault();
             const pass = document.getElementById('admin-pass-input').value;
-            // Password default diubah menjadi 'admin'
-            if (pass === 'admin') {
+            // Password admin diatur menjadi tercyduk1234
+            if (pass === 'tercyduk1234') {
                 sessionStorage.setItem('is_admin_logged_in', 'true');
                 checkAdminSession();
                 showToast("Login Admin Berhasil.");
             } else {
-                alert("Password Admin Salah! Gunakan: admin");
+                alert("Password Admin Salah!");
             }
         }
 
